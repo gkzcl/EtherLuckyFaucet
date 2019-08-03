@@ -1,4 +1,3 @@
-//编译的智能合约的脚本
 const path = require('path');
 const fs = require('fs');
 const solc = require('solc');
