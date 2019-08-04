@@ -1,28 +1,9 @@
 import React from 'react';
 import {Card, Image, Icon, Statistic, Button, Label} from 'semantic-ui-react';
-import web3 from './web3';
 import BasicCard from './BasicCard';
 import SantoriniFaucet from './SantoriniFaucet';
 
 class SantoriniCard extends BasicCard {
-
-    async componentDidMount() {
-        const address = await SantoriniFaucet.methods.getManager().call();
-        this.setState({manager: address});
-        const playersCount = await SantoriniFaucet.methods.getPlayersCount().call();
-        const balance = await SantoriniFaucet.methods.getBalance().call();
-        this.setState({playersCount: playersCount});
-        this.setState({balance: web3.utils.fromWei(balance, 'ether')});
-
-        const accounts = await web3.eth.getAccounts();
-        if (accounts[0] === address) {
-            //当前登录进来的是管理员
-            this.setState({showbutton: 'inline'});
-        } else {
-            //不是管理员
-            this.setState({showbutton: 'none'});
-        }
-    }
 
     render() {
         return (
@@ -37,7 +18,7 @@ class SantoriniCard extends BasicCard {
                         </Label>
                     </Card.Meta>
                     <Card.Description>
-                        <p>Draw Time: 8 PM Friday</p>
+                        <p>Draw Time: Friday 8 PM </p>
                     </Card.Description>
                 </Card.Content>
                 <Card.Content extra>
