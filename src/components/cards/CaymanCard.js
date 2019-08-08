@@ -1,16 +1,16 @@
 import React from 'react';
 import {Card, Image, Icon, Statistic, Button, Label} from 'semantic-ui-react';
 import BasicCard from './BasicCard';
-import TahitiFaucet from './TahitiFaucet';
+import CaymanFaucet from '../../utils/contracts/CaymanFaucet';
 
-class TahitiCard extends BasicCard {
+class CaymanCard extends BasicCard {
 
     render() {
         return (
             <Card>
-                <Image src='/images/Tahiti.jfif'/>
+                <Image src='/images/Cayman.jfif'/>
                 <Card.Content>
-                    <Card.Header>Tahiti Faucet</Card.Header>
+                    <Card.Header>Cayman Faucet</Card.Header>
                     <Card.Meta>
                         <p>Manager Address:</p>
                         <Label size='mini'>
@@ -33,21 +33,21 @@ class TahitiCard extends BasicCard {
                         <Statistic.Label>JackPot</Statistic.Label>
                     </Statistic>
                 </Card.Content>
-                <Button animated='fade' onClick={this.enter.bind(this,TahitiFaucet)}
+                <Button animated='fade' onClick={this.enter.bind(this,CaymanFaucet)}
                         loading={this.state.enterLoading}
                         disabled={this.state.enterLoading}>
                     <Button.Content visible>Click For Enter</Button.Content>
                 </Button>
                 <Button animated='fade' color='orange'
                         style={{display: this.state.showbutton}}
-                        onClick={this.pickWinner.bind(this,TahitiFaucet)}
+                        onClick={this.pickWinner.bind(this,CaymanFaucet)}
                         loading={this.state.openLoading}
                         disabled={this.state.openLoading}>
                     <Button.Content visible>Open Luck</Button.Content>
                 </Button>
                 <Button animated='fade' color='green'
                         style={{display: this.state.showbutton}}
-                        onClick={this.refund.bind(this,TahitiFaucet)}
+                        onClick={this.refund.bind(this,CaymanFaucet)}
                         loading={this.state.refundLoading}
                         disabled={this.state.refundLoading}>
                     <Button.Content visible>Refund</Button.Content>
@@ -57,4 +57,4 @@ class TahitiCard extends BasicCard {
     }
 }
 
-export default TahitiCard;
+export default CaymanCard;

@@ -1,14 +1,14 @@
 import React from 'react';
 import {Card, Image, Icon, Statistic, Button, Label} from 'semantic-ui-react';
 import BasicCard from './BasicCard';
-import MaldivesFaucet from './MaldivesFaucet';
+import SantoriniFaucet from '../../utils/contracts/SantoriniFaucet';
 
-class MaldivesCard extends BasicCard {
+class SantoriniCard extends BasicCard {
 
     render() {
         return (
             <Card>
-                <Image src='/images/Maldives.jfif'/>
+                <Image src='/images/Santorini.jpeg'/>
                 <Card.Content>
                     <Card.Header>Maldives Faucet</Card.Header>
                     <Card.Meta>
@@ -33,21 +33,21 @@ class MaldivesCard extends BasicCard {
                         <Statistic.Label>JackPot</Statistic.Label>
                     </Statistic>
                 </Card.Content>
-                <Button animated='fade' onClick={this.enter.bind(this,MaldivesFaucet)}
+                <Button animated='fade' onClick={this.enter.bind(this,SantoriniFaucet)}
                         loading={this.state.enterLoading}
                         disabled={this.state.enterLoading}>
                     <Button.Content visible>Click For Enter</Button.Content>
                 </Button>
                 <Button animated='fade' color='orange'
                         style={{display: this.state.showbutton}}
-                        onClick={this.pickWinner.bind(this,MaldivesFaucet)}
+                        onClick={this.pickWinner.bind(this,SantoriniFaucet)}
                         loading={this.state.openLoading}
                         disabled={this.state.openLoading}>
                     <Button.Content visible>Open Luck</Button.Content>
                 </Button>
                 <Button animated='fade' color='green'
                         style={{display: this.state.showbutton}}
-                        onClick={this.refund.bind(this,MaldivesFaucet)}
+                        onClick={this.refund.bind(this,SantoriniFaucet)}
                         loading={this.state.refundLoading}
                         disabled={this.state.refundLoading}>
                     <Button.Content visible>Refund</Button.Content>
@@ -57,4 +57,4 @@ class MaldivesCard extends BasicCard {
     }
 }
 
-export default MaldivesCard;
+export default SantoriniCard;

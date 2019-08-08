@@ -1,16 +1,16 @@
 import React from 'react';
 import {Card, Image, Icon, Statistic, Button, Label} from 'semantic-ui-react';
 import BasicCard from './BasicCard';
-import CaymanFaucet from './CaymanFaucet';
+import MaldivesFaucet from '../../utils/contracts/MaldivesFaucet';
 
-class CaymanCard extends BasicCard {
+class MaldivesCard extends BasicCard {
 
     render() {
         return (
             <Card>
-                <Image src='/images/Cayman.jfif'/>
+                <Image src='/images/Maldives.jfif'/>
                 <Card.Content>
-                    <Card.Header>Cayman Faucet</Card.Header>
+                    <Card.Header>Maldives Faucet</Card.Header>
                     <Card.Meta>
                         <p>Manager Address:</p>
                         <Label size='mini'>
@@ -33,21 +33,21 @@ class CaymanCard extends BasicCard {
                         <Statistic.Label>JackPot</Statistic.Label>
                     </Statistic>
                 </Card.Content>
-                <Button animated='fade' onClick={this.enter.bind(this,CaymanFaucet)}
+                <Button animated='fade' onClick={this.enter.bind(this,MaldivesFaucet)}
                         loading={this.state.enterLoading}
                         disabled={this.state.enterLoading}>
                     <Button.Content visible>Click For Enter</Button.Content>
                 </Button>
                 <Button animated='fade' color='orange'
                         style={{display: this.state.showbutton}}
-                        onClick={this.pickWinner.bind(this,CaymanFaucet)}
+                        onClick={this.pickWinner.bind(this,MaldivesFaucet)}
                         loading={this.state.openLoading}
                         disabled={this.state.openLoading}>
                     <Button.Content visible>Open Luck</Button.Content>
                 </Button>
                 <Button animated='fade' color='green'
                         style={{display: this.state.showbutton}}
-                        onClick={this.refund.bind(this,CaymanFaucet)}
+                        onClick={this.refund.bind(this,MaldivesFaucet)}
                         loading={this.state.refundLoading}
                         disabled={this.state.refundLoading}>
                     <Button.Content visible>Refund</Button.Content>
@@ -57,4 +57,4 @@ class CaymanCard extends BasicCard {
     }
 }
 
-export default CaymanCard;
+export default MaldivesCard;

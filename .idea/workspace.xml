@@ -3,12 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="2ead65f0-dd57-45c8-ba0d-2820f01923e9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ABI.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/ABI.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BasicCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/BasicCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CaymanCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/CaymanCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MaldivesCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MaldivesCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SantoriniCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/SantoriniCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TahitiCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/TahitiCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BasicCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cards/BasicCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CaymanCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cards/CaymanCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CaymanFaucet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/contracts/CaymanFaucet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MaldivesCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cards/MaldivesCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MaldivesFaucet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/contracts/MaldivesFaucet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SantoriniCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cards/SantoriniCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SantoriniFaucet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/contracts/SantoriniFaucet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TahitiCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cards/TahitiCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TahitiFaucet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/contracts/TahitiFaucet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/web3.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +27,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
+            <state relative-caret-position="726">
               <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
@@ -31,25 +37,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/CaymanCard.js">
+        <entry file="file://$PROJECT_DIR$/src/utils/web3.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BasicCard.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="132">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -63,9 +54,9 @@
       <find>Message</find>
       <find>Button</find>
       <find>Image</find>
-      <find>web3</find>
       <find>address</find>
       <find>href</find>
+      <find>web3</find>
     </findStrings>
     <replaceStrings>
       <replace>CaymanFaucet</replace>
@@ -93,12 +84,14 @@
         <option value="$PROJECT_DIR$/info" />
         <option value="$PROJECT_DIR$/src/Maldives.js" />
         <option value="$PROJECT_DIR$/compile.js" />
-        <option value="$PROJECT_DIR$/src/CaymanCard.js" />
-        <option value="$PROJECT_DIR$/src/BasicCard.js" />
-        <option value="$PROJECT_DIR$/src/MaldivesCard.js" />
-        <option value="$PROJECT_DIR$/src/SantoriniCard.js" />
-        <option value="$PROJECT_DIR$/src/TahitiCard.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/CaymanCard.js" />
+        <option value="$PROJECT_DIR$/src/MaldivesCard.js" />
+        <option value="$PROJECT_DIR$/src/TahitiCard.js" />
+        <option value="$PROJECT_DIR$/src/SantoriniCard.js" />
+        <option value="$PROJECT_DIR$/src/BasicCard.js" />
+        <option value="$PROJECT_DIR$/src/utils/contracts/MaldivesFaucet.js" />
+        <option value="$PROJECT_DIR$/src/utils/web3.js" />
       </list>
     </option>
   </component>
@@ -113,6 +106,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -128,24 +122,38 @@
             <path>
               <item name="EtherLuckyFaucet" type="b2602c69:ProjectViewProjectNode" />
               <item name="EtherLuckyFaucet" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EtherLuckyFaucet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EtherLuckyFaucet" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="EtherLuckyFaucet" type="b2602c69:ProjectViewProjectNode" />
               <item name="EtherLuckyFaucet" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EtherLuckyFaucet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EtherLuckyFaucet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="cards" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EtherLuckyFaucet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EtherLuckyFaucet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EtherLuckyFaucet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EtherLuckyFaucet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="contracts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -153,8 +161,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="E:/myandroid/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564911847430" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Inbox/MyInbox" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565289004651" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -165,6 +173,11 @@
     <property name="ts.external.directory.path" value="D:\IDEA\ideaIU-2018.3.5.win\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\JavaProjects\Ethereum\LotteryProject\EtherLuckyFaucet\src\utils" />
+      <recent name="F:\JavaProjects\Ethereum\LotteryProject\EtherLuckyFaucet\src\utils\contracts" />
+      <recent name="F:\JavaProjects\Ethereum\LotteryProject\EtherLuckyFaucet\src\components\cards" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\JavaProjects\Ethereum\LotteryProject\EtherLuckyFaucet\src" />
       <recent name="F:\JavaProjects\Ethereum\LotteryProject\EtherLuckyFaucet\public\images" />
@@ -238,17 +251,26 @@
       <workItem from="1564862898742" duration="993000" />
       <workItem from="1564864136248" duration="8000" />
       <workItem from="1564864160169" duration="48000" />
-      <workItem from="1564910993810" duration="702000" />
+      <workItem from="1564910993810" duration="975000" />
+      <workItem from="1564918462905" duration="58000" />
+      <workItem from="1564918540401" duration="6000" />
+      <workItem from="1564918731836" duration="13000" />
+      <workItem from="1565078173588" duration="15000" />
+      <workItem from="1565079358181" duration="20000" />
+      <workItem from="1565079679008" duration="328000" />
+      <workItem from="1565189511586" duration="17000" />
+      <workItem from="1565288630112" duration="373000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10516000" />
+    <option name="totallyTimeSpent" value="11619000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27092275" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30418456" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -265,7 +287,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.25462964" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.25462964" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -334,24 +356,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TahitiFaucet.js">
+    <entry file="file://$PROJECT_DIR$/src/utils/contracts/TahitiFaucet.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="3" column="71" selection-start-line="3" selection-start-column="71" selection-end-line="3" selection-end-column="71" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SantoriniFaucet.js">
+    <entry file="file://$PROJECT_DIR$/src/utils/contracts/SantoriniFaucet.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="3" column="74" selection-start-line="3" selection-start-column="74" selection-end-line="3" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -369,23 +384,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CaymanFaucet.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/deploy.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -400,56 +398,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ABI.js">
+    <entry file="file://$PROJECT_DIR$/src/components/cards/CaymanCard.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
+        <state relative-caret-position="66">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/cards/TahitiCard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/cards/SantoriniCard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/contracts/MaldivesFaucet.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="73" selection-start-line="3" selection-start-column="73" selection-end-line="3" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/ABI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
           <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MaldivesCard.js">
+    <entry file="file://$PROJECT_DIR$/src/components/cards/BasicCard.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="924">
+          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SantoriniCard.js">
+    <entry file="file://$PROJECT_DIR$/src/utils/contracts/CaymanFaucet.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="33">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MaldivesFaucet.js">
+    <entry file="file://$PROJECT_DIR$/src/components/cards/MaldivesCard.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" column="73" selection-start-line="3" selection-start-column="73" selection-end-line="3" selection-end-column="73" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TahitiCard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="66">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
+        <state relative-caret-position="726">
           <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
@@ -457,23 +477,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BasicCard.js">
+    <entry file="file://$PROJECT_DIR$/src/utils/web3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CaymanCard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="132">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
